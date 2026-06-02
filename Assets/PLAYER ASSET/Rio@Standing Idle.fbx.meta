@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 46b1dd07639ec484c833879c0cad7f32
 ModelImporter:
-  serializedVersion: 22200
+  serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects:
   - first:
@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: PlayerMaterial
     second: {fileID: 2100000, guid: baeb100369b777447b2dc2b5ca2365d5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Player_Model_PlayerMaterial_AlbedoTransparency
+    second: {fileID: 2800000, guid: 5e05081f48b41a6469e1cb8c6038c63f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,6 +95,9 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
